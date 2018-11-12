@@ -4,7 +4,7 @@ using namespace std;
 
 void main()
 {
-	const int SIZE = 5; //	razmer stati4eskogo massiva doljen bit' konstantoy. nazvanie peremennoy esli const obi4no pishetsya CAPSLOCKom
+	const size_t SIZE = 5; //	razmer stati4eskogo massiva doljen bit' konstantoy. nazvanie peremennoy esli const obi4no pishetsya CAPSLOCKom
 	int arr[SIZE]; //sozdanie massiva s intovimi tipadami dannuh razmera - size. On ne zapolnen elementami; 
 
 	cout << "nezapolnennue elementu:" << endl;

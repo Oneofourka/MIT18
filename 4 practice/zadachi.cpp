@@ -6,7 +6,7 @@ using namespace std;
 void main()
 {
 	srand(time(NULL));
-	const int size = 10;
+	const size_t size = 10;
 	int arr[size];
 	//zapolnenie massiva
 	cout << "Our massive is:" << endl;

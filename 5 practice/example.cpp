@@ -2,20 +2,20 @@
 #include <ctime>
 using namespace std;
 
-void FillArray(int* const arr, const size_t const size)	//(int *arr, int size) (int arr[], int size);
+void FillArray(int* const arr, const size_t size)	//(int *arr, int size) (int arr[], int size);
 {
 	for (size_t i = 0; i < size; ++i)
 		arr[i] = rand() % 21 - 10;
 }
 
-void ShowArray(int* const arr, const size_t const size)
+void ShowArray(const int* const arr, const size_t size)
 {
 	for (size_t i = 0; i < size; ++i)
 		cout << arr[i] << "\t";
 	cout << endl;
 }
 
-int SumElemArr(int* const arr, const size_t const size)
+int SumElemArr(const int* const arr, const size_t size)
 {
 	int sum = 0;
 	for (size_t i = 0; i < size; ++i)
@@ -24,7 +24,7 @@ int SumElemArr(int* const arr, const size_t const size)
 	return sum;
 }
 
-void SortArray(int* const arr, const size_t const size)
+void SortArray(int* const arr, const size_t size)
 {
 	for (size_t i = 0; i < size - 1; ++i)
 		for (size_t j = 0; j < size - i - 1; ++j)
